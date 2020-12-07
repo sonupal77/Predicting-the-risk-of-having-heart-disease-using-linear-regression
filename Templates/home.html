@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Patient Details
+    </title>
+</head>
+<body>
+    <h1>Heart Risk Level Predictor using Linear Regression - Powered by python, flask and scikit-learn</h1>
+    <p>please fill this form with your correct and true details</p>
+
+    <form action="http://127.0.0.1:5000/getresults" method="POST" >
+        <p>Name <input type="text" name="name"</p>
+        <p>Gender(1-male, 2-female) <input type="text" name="gender"</p>
+        <p>Age <input type="text" name="age"</p>
+        <p>TC(mg/dL) <input type="text" name="tc"</p>
+        <p>HDL(mg/dL) <input type="text" name="hdl"</p>
+        <p>Smoke(0-no, 1-yes) <input type="text" name="smoke"</p>
+        <p>Blood Pressure Medication(1-not taking, 2-taking) <input type="text" name="bpm"</p>
+        <p>Type 01 Diabetics(0-no, 1-yes) <input type="text" name="diab"</p>
+        <p><input type="submit" value="Submit Details"</p>
+    </form>
+</body>
+
+</html>
